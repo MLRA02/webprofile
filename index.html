@@ -79,7 +79,7 @@
 		                  <p class="card-text">
 		                      E-Commerce, also known as e-Business, or electronic business, is simply the sale and purchase of services and goods over an electronic medium, like the Internet.
 		                  </p>
-		                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		                  
 		                </div>
 
 		              </div>
@@ -90,7 +90,7 @@
 		                  <p class="card-text">
 		                        A blog (a shortened version of “weblog”) is an online journal or informational website displaying information in reverse chronological order, with the latest posts appearing first, at the top.
 		                  </p>
-		                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		                  
 		                </div>
 		              </div>
 		              <div class="card col-md-3">
@@ -101,7 +101,7 @@
 		                      What is an online booking system?
 		                      Put simply, an online booking system is a software solution used for reservation management.
 		                  </p>
-		                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		                  
 		                </div>
 		              </div>
 		            </div>
@@ -187,15 +187,15 @@
 		                    </a>
 		                </div>
 		            </div>
-		            <div class="row px-md-3">
+		           <!--  <div class="row px-md-3">
 		                <div class="col-md-6 my-4">
-		                    <h4 class="text-center my-4">Visit Us</h4>
+		                    <h4 class="text-center my-4">Visit Me</h4>
 		                    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.2940363808432!2d121.16904465819674!3d14.622526447447145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8d56375519d%3A0x211abf8145bac40c!2sRd%2023%2C%20Antipolo%2C%201870%20Rizal%2C%20Philippines!5e0!3m2!1sen!2sus!4v1668482517321!5m2!1sen!2sus" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
-		                </div>
-		                <div class="col-md-6 my-4">
-		                    <h4 class="text-center my-4">Message Us</h4>
+		                </div> -->
+		                <div class="col-md-4 col-10 offset-md-4 offset-1 rounded">
+		                    <h4 class="text-center my-4">Message Me</h4>
 		                    <form>
 		                        <div class="form-group">
 		                            <label>Full Name</label>
@@ -209,7 +209,30 @@
 		                            <label>Message</label>
 		                            <textarea class="form-control"></textarea>
 		                        </div>
-		                        <button type="submit" class="btn btn-outline-dark btn-block">Send</button>
+		                         <button type="button" class="btn btn-dark mb-1 mt-2" data-toggle="modal" data-target="#exampleModal">
+								          Send Email
+								        </button>
+
+								        <!-- Modal -->
+								        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								          <div class="modal-dialog">
+								            <div class="modal-content">
+								              <div class="modal-header">
+								                <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+								                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								                  <span aria-hidden="true">&times;</span>
+								                </button>
+								              </div>
+								              <div class="modal-body text-dark">
+								                Message Successfully Sent
+								              </div>
+								              <div class="modal-footer">
+								                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								                
+								              </div>
+								            </div>
+								          </div>
+								        </div>
 		                    </form>
 		                </div>
 		            </div>
